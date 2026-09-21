@@ -1,0 +1,23 @@
+
+ -------------------------------------------------------------------------------------------------------------------------------------- 
+   INFOBUILD [ 2.03 ] 
+   LIB_version: 372222T2_R1 
+   COMPILER   : GCC493  [LIB: GCC 4.9.3 ];   PIC [NO ] 
+   PKG LIBS   : appMng.ar [5.61 kB]  ati.ar [3.55 kB]  atp.ar [11.40 kB]  backup.ar [4.68 kB]  crypto.ar [32.35 kB]  fota.ar [8.01 kB]  fs.ar [14.13 kB]  ftpc.ar [26.63 kB]  fwautosim.ar [5.60 kB]  gnss.ar [9.48 kB]  gpio.ar [8.93 kB]  hwTmr.ar [14.50 kB]  i2c.ar [3.76 kB]  info.ar [4.31 kB]  ini.ar [21.03 kB]  lwm2m.ar [20.63 kB]  mqtt.ar [13.03 kB]  mqttsn.ar [9.31 kB]  net.ar [9.71 kB]  ntp.ar [5.16 kB]  pdp.ar [16.92 kB]  power.ar [4.60 kB]  rtc.ar [3.38 kB]  rtos.ar [123.80 kB]  secure_ms.ar [14.35 kB]  sim.ar [7.87 kB]  sms.ar [10.15 kB]  socket.ar [13.47 kB]  spi.ar [4.13 kB]  ssl.ar [10.79 kB]  sys.ar [4.62 kB]  _telit_4G_ME310.ar [244.54 kB]  trace.ar [9.83 kB]  uart.ar [5.52 kB]  usb.ar [4.88 kB]  wDog.ar [6.40 kB]  
+ -------------------------------------------------------------------------------------------------------------------------------------- 
+"C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv6_493_4.9.3\arm_gcc493/bin/arm-none-eabi-ld"  --defsym __ROM=0x40000000 --defsym __HEAP_PUB_SIZE=0x40000 --defsym __HEAPSIZE=0x1A00 --defsym HEAP_MIN=0xD000 --defsym __PAGE_SIZE=0x1000 -T "C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.me910g1_37_00_XX5_0.5.0.372222\lib/temp/linkGCC.ld" --entry=_txm_module_thread_shell_entry -O0 -A  Cortex-A7  --cref --oformat=elf32-littlearm  -EL  azx/src/azx_log.o azx/src/azx_utils.o src/sleep_fn.o src/gnss_fn.o src/app_common.o src/net_fn.o src/batt_fn.o src/main.o src/lwm2m_fn.o src/at_helper.o  --library-path="C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\plugins\com.telit.appzonec.plugin.me910g1_37_00_XX5_0.5.0.372222\lib/temp" -nostdlib -nodefaultlibs  --start-group --library=:_telit_4G_ME310.ar --library=:appMng.ar --library=:ati.ar --library=:atp.ar --library=:backup.ar --library=:crypto.ar --library=:fota.ar --library=:fs.ar --library=:ftpc.ar --library=:fwautosim.ar --library=:gnss.ar --library=:gpio.ar --library=:hwTmr.ar --library=:i2c.ar --library=:info.ar --library=:ini.ar --library=:lwm2m.ar --library=:mqtt.ar --library=:mqttsn.ar --library=:net.ar --library=:ntp.ar --library=:pdp.ar --library=:power.ar --library=:rtc.ar --library=:rtos.ar --library=:secure_ms.ar --library=:sim.ar --library=:sms.ar --library=:socket.ar --library=:spi.ar --library=:ssl.ar --library=:sys.ar --library=:trace.ar --library=:uart.ar --library=:usb.ar --library=:wDog.ar   --end-group  -L "C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv6_493_4.9.3\arm_gcc493\lib\gcc\arm-none-eabi\4.9.3" -L "C:\ProgramData\Telit\IoT_AppZone_IDE_5x\eclipse\\plugins\com.telit.appzonec.toolchain.plugin.gccARMv6_493_4.9.3\arm_gcc493\arm-none-eabi\lib"   -lc -lm -lnosys -lgcc --gc-sections --no-keep-memory  -Map=m2mapz.ma -o m2mapz.ax
+ -----------------------------------------------  Binary Info ------------------------------------------------------------------------- 
+   INFOBUILD [ 2.03 ] 
+   LIB_version: 372222T2_R1 
+   COMPILER   : GCC  ;  PLATFORM: TELIT_4GM_I  ;  PIC [NO] - MMU [NO] 
+   USED LIBS  : _telit_4G_ME310.ar  appMng.ar  ati.ar  atp.ar  backup.ar  crypto.ar  fota.ar  fs.ar  ftpc.ar  fwautosim.ar  gnss.ar  gpio.ar  hwTmr.ar  i2c.ar  info.ar  ini.ar  lwm2m.ar  mqtt.ar  mqttsn.ar  net.ar  ntp.ar  pdp.ar  power.ar  rtc.ar  rtos.ar  secure_ms.ar  sim.ar  sms.ar  socket.ar  spi.ar  ssl.ar  sys.ar  trace.ar  uart.ar  usb.ar  wDog.ar  
+   App size ==> Total size: 355340 [347.012 kB]      { Code: [11444]   RO_data: [9316]   RW_data: [10124]   ZI_data: [324456] } 
+
+   RAM requested: 543160 
+
+   Binary: C:\Users\engra\Desktop\moo-hardware\m2mapz.bin 
+   Size  : 156992 
+ -------------------------------------------------------------------------------------------------------------------------------------- 
+
+ Mon Sep 07 13:02:08 2026
+Done.
